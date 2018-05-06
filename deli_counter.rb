@@ -13,8 +13,10 @@ def line(katz_deli)
 end
 
 def take_a_number (katz_deli, name)
+  current_position=katz_deli.length+1
   if katz_deli.empty?
     katz_deli << name
+    puts "Welcome, #{name}. You are number #{current_position} in line."
   end
 end
 
