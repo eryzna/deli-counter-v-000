@@ -18,11 +18,13 @@ def take_a_number (katz_deli, name)
     katz_deli << name
     puts "Welcome, #{name}. You are number #{current_position} in line."
   else
-    katz_deli << name  
+    katz_deli << name
     puts "Welcome, #{name}. You are number #{current_position} in line."
   end
 end
 
+def now_serving(katz_deli)
+end
 
 
 #current_position=katz_deli.length+1
