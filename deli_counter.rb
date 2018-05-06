@@ -15,10 +15,11 @@ end
 def take_a_number (katz_deli, name)
   if !katz_deli.empty?
     katz_deli << name
-  current_position=katz_deli.length+1
-  puts "Welcome, #{name}. You are number #{current_position} in line."
+  end
 end
 
+#current_position=katz_deli.length+1
+#puts "Welcome, #{name}. You are number #{current_position} in line."
 
   #Welcome, Ada. You are number 1 in line.
 
