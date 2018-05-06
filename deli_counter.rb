@@ -16,10 +16,9 @@ def take_a_number (katz_deli, name)
   current_position=katz_deli.length+1
   puts "Welcome, #{name}. You are number #{current_position} in line."
 end
-  
-  puts 
 
-  Welcome, Ada. You are number 1 in line.
+
+  #Welcome, Ada. You are number 1 in line.
 
 #attendees.each_with_index {|attendee, index| array << "Hello, #{attendee}! You'll be assigned to room #{index+1}!"}
 #else
