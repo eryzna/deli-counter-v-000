@@ -4,9 +4,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    people_line=[]
-    katz_deli.each_with_index {|customer, index| people_line<< "The line is currently: #{index+1}. #{customer}."}
-    people_line
+    katz_deli.each_with_index {|customer, index| puts "The line is currently: #{index+1}. #{customer}."}
   end
 end
 
